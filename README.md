@@ -33,6 +33,7 @@ Em caso de problemas para a execução do projeto execute dentro da pasta no ter
 - `php artisan cache:clear`
 - `php artisan view:clear`
 - `php artisan route:clear`
+- `php artisan jwt:secret`
 - `php artisan clear-compiled`
 - `composer dump-autoload`
 
