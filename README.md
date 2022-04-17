@@ -18,7 +18,7 @@ Recomendações para execução do projeto:
 - Para utiliza o servidor do laravel, basta executar o comando: `php artisan serve` para inicializar o servidor.
 - Caso utilize o servidor do Laravel, acesse o sistema pelo seu navegador de preferência através do endereço `http://localhost:8000`
 - Caso utilize o xampp/wampp acesse `http://localhost/indicacao-laravel`
-- E no projeto front-end do angular, dentro da pasta `indicacao-angular`, percorra  o caminho `/src/environments/environment.ts` e na linha `7`, altere `base_url` para o endereço acima do servidor acima, conforme escolha. Como padrão está setado `http://localhost:8000`.
+- E no projeto front-end do angular, dentro da pasta `indicacao-angular`, percorra  o caminho `/src/environments/environment.ts` e na linha `7`, altere `base_url` para o endereço do servidor acima, conforme escolha. Como padrão está setado `http://localhost:8000`.
 
 Requisitos para execução do projeto:
 
