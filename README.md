@@ -13,7 +13,8 @@ Recomendações para execução do projeto:
 - Para este projeto, informe somente o usuário e senha nos campos `DB_USERNAME` e `DB_PASSWORD` respectivamente.
 - Dentro da pasta `indicacao-laravel` execute no terminal de comando `composer update`.
 - E em seguida execute o comando `php artisan key:generate` para gerar uma key (chave) do projeto.
-- E em seguida o comando `php artisan migrate:refresh --seed` para migração dos dados no banco Postgre.
+- Crie um banco schema `db_indication` no seu banco de dados Postgre. 
+- E em seguida o comando `php artisan migrate:refresh --seed` para migração dos dados no banco.
 - E em seguida rode um servidor da sua preferência. Xampp, Wamp.. Ou o próprio servidor que o laravel disponibiliza.
 - Para utiliza o servidor do laravel, basta executar o comando: `php artisan serve` para inicializar o servidor.
 - Caso utilize o servidor do Laravel, acesse o sistema pelo seu navegador de preferência através do endereço `http://localhost:8000`
